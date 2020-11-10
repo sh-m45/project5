@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 5000px;
+}
+
+.clr {
+    clear: both;
+}
+
+.navbar {
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+    z-index: 99999999999;
+}
+
+.erorr {
+    padding-left: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+.list {
+    margin-right: 80px;
+}
+
+.list li {
+    margin-left: 25px;
+
+}
+
+.list li a {
+    color: white;
+}
+
+.intro {
+    background-image: url(person2.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    padding-top: 250px;
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: white;
+}
+
+.headerh2 {
+    margin-left: 480px;
+    font-size: 65px;
+    font-weight: 300;
+    color: white;
+}
+.headerh2::after{
+    content: "Developer";
+}
+
+.navbar-toggler {
+    color: red;
+    background-color: saddlebrown;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+.active {
+    border-bottom: solid;
+    border-color: white;
+
+}
+
+.fab {
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.icons-container{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.firstSection{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.firstImg {
+    float: left;
+    width: 450px;
+    background-color: royalblue;
+}
+
+img {
+    width: 100%;
+    height: 550px;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.firstp{
+    color: rgb(75, 73, 73);
+    font-weight: 400;
+    font-size: 17px;
+}
+article {
+    float: left;
+    margin-left: 30px;
+    width: 500px;
+}
+
+.progress {
+    margin-top: 30px;
+    height: 27px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.black {
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.white {
+    width: 150px;
+    margin-top: 50px;
+    border-color: black;
+    color: black;
+
+}
+
+.black:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.white:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+.secondSection {
+    background-color: rgb(241, 241, 237);
+    height: 950px;
+    margin-top: 100px;
+
+}
+
+.sectionH2 {
+    color: black;
+    padding-top: 70px;
+    margin: 70px auto;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 180px;
+    border-bottom-style: dotted;
+    border-bottom-color: #d8c9c9;
+}
+
+.total1 {
+
+    width: 100%;
+    height: 300px;
+    padding-left: 60px;
+
+}
+
+.small {
+    float: left;
+    width: 30%;
+    padding-left: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    padding-left: 20px; 
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imgicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 218);
+    margin: 30px auto;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.fas {
+    font-size: 25px;
+    margin-top: 22px;
+}
+
+.imgicon:hover{
+    background-color: rgb(31, 29, 29) ;
+}
+
+.imgicon:hover .fas{
+    color: rgb(231, 224, 224);
+}
+.h3 {
+    text-align: center;
+    
+}
+
+.imgp {
+    text-align: center;
+    font-size: 15px;
+}
+
+.threeSection {
+    
+    height: 900px;
+}
+
+.contant {
+    
+    height: 350px;
+    margin-left: 55px;
+}
+
+.parent {
+    float: left;
+    width: 28%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    height: 300px;
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    text-align: center;
+    transition: all 1s;
+    
+    
+}
+
+.imgchild {
+    width: 100%;
+    height: 100%;
+    transition: 1s all;
+    transition-delay: 1s;
+
+}
+
+.iconChild{
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: white;
+}
+
+.parent:hover .child{
+    background-color: white;
+    top: 0;
+}
+
+.parent:hover {
+    
+    border:5px rgb(201, 201, 201) solid;
+}
+.h23{
+    width: 200px ;
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 100px auto;
+    border-bottom-style: dotted;
+    border-bottom-color: rgb(197, 194, 194);
+    color: black;
+}
+.Picon{
+    margin-top: 115px;
+}
+
+.forthSection{
+    height: 530px;
+    background-color: rgb(233, 232, 231);
+}
+
+
+.ImgCarousal{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+.ForthH2{
+    margin: auto;
+    padding-top: 60px;
+    font-size: 45px;
+    font-weight: bolder;
+    border-bottom-style: dotted;
+    border-bottom-color: #d8c9c9;
+    width: 270px;
+}
+.ForthP{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(70, 65, 65);
+    
+}
+.counter{
+    height: 330px ;
+}
+.divCount{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.final{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+.countH4{
+    font-size: 17px;
+    color: gray ;
+}
+.foot1{
+    height: 750px;
+    background-color: #f1f1f1;
+
+}
+.footh4{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.footPart1{
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-left: 80px;
+    
+}
+.footic{
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 17px;
+    background-color:#d2cece;
+}
+h6{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.footP{
+    color: rgb(167, 161, 161);
+}
+form{
+    margin-left: 200px;
+}
+.fname{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 450px;
+    height: 40px;
+    border-radius: 7px;
+    border-style: none;
+    background-color:rgb(220 216 216);
+}
+.text{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 930px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: rgb(220 216 216);
+}
+.submit{
+    margin-top: 10px;
+    width: 120px;
+    margin-left: 30px;
+}
+.foot2{
+    height: 100px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    text-align: center;
+}
+.copy{
+    padding-top: 40px;
+}
